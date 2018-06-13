@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "Card": {
+    "dataSource": "cardsDs",
+    "public": true
+  },
+  "Task": {
+    "dataSource": "cardsDs",
+    "public": true
+  },
+  "Client": {
+    "dataSource": "cardsDs",
+    "public": true
+  },
+  "User": {
+    "dataSource": "cardsDs",
+    "public": true
+  },
+  "AccessToken": {
+    "dataSource": "cardsDs",
+    "public": true
+  },
+  "ACL": {
+    "dataSource": "cardsDs",
+    "public": false
+  },
+  "RoleMapping": {
+    "dataSource": "cardsDs",
+    "public": false
+  },
+  "Role": {
+    "dataSource": "cardsDs",
+    "public": false
+  }
+}
